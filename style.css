@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image.png);
+    overflow: hidden; /* Ngăn kéo dài */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px; 
+    margin-bottom: 20px; 
+}
+
+.options {
+    display: flex;
+    justify-content: space-between; 
+    width: 200px; 
+    margin: 0 auto; 
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: black; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.btn:hover {
+    background-color: blue;
+}
